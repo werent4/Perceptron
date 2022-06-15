@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 
 def sigmoid(w_sum):
     return 1 / (1+ np.exp(-w_sum))
